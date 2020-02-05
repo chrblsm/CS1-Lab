@@ -6,8 +6,8 @@ y="Those who know %s and those who %s." %(binary,do_not)
 print(x)
 print(y)
 
-print("I said: '%r'.") %x #ERROR OCCURS
-print("I also said: '%s'.") %y #ERROR OCCURS
+print(format("I said: '%r'." %x)) 
+print(format("I also said: '%s'." %y))  
 
 hilarious=False
 joke_evaluation="isn't that joke funny?! %r"
