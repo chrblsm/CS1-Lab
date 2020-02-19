@@ -39,5 +39,15 @@ print(list1)
 list1=[1,2,3,4,5]
 for element in list1:
   print(element**2)
+  
+#5
+a=range(1,101)
+listEven=[]
+for i in range(1,101):
+  if(i%2==0):
+    listEven.append(i)
+
+print(listEven)
+
 
 
