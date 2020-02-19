@@ -49,5 +49,19 @@ for i in range(1,101):
 
 print(listEven)
 
+#6
+print(listEven)
+print("\n\n\n These are numbers divisible by 4")
+FOURList=[]
+for k in range(1,101):
+  if(k%4==0):
+    FOURList.append(k)
+print(FOURList)
+print("\n\n\n These are numbers dividible by 6")
+SIXList=[]
+for j in range(1,101):
+  if(j%6==0):
+    SIXList.append(j)
+print(SIXList)
 
 
