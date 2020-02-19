@@ -24,6 +24,16 @@ print("This is the end")
 #1
 for i in range(3):
   print(i)
+  
+  #2
+list1=list(input())
+i=input()
+if(i in list1):
+  list1.remove(i)
+else:
+  print(list1)
+
+print(list1)
 
 #4
 list1=[1,2,3,4,5]
